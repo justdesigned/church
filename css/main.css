@@ -1,0 +1,288 @@
+body {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+    color: #F1EFEE;
+}
+ul, li{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp' on, 'kern' off;
+    color: #3F353B;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 span{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #3F353B;  
+}
+h2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
+    color: #3F353B;
+}
+h6{
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp' on, 'kern' off;   
+}
+p{
+    font-size: 13px;
+}
+a {
+    color: #F1EFEE;
+}
+a:hover {
+    color: #a1949b;
+}
+.light {
+    color: #F1EFEE;
+}
+.dark {
+    color: #3F353B;
+}
+/* HEADER */
+
+header {
+    background-color: #3F353B;
+    border-bottom: 1px solid #F1EFEE;
+}
+.topmenu {
+    
+    padding: 27px 0;
+}
+
+.topmenu__item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.63em;
+}
+
+/* FIRST_SCREEN */
+
+.first_screen {
+    height: 880px;
+    background-color: #3F353B;
+    background-image: url(../img/header_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    margin-top: 16px;
+}
+.mainmenu{
+    text-align: center;
+}
+.mainmenu__item {
+    margin-top: 34px;
+}
+.mainmenu__item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.63em;
+}
+
+/* ABOUT_PRIEST */
+.about {
+    /* height: 450px; */
+    background-image: url(../img/about_bg_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3f353b;
+}
+.photo{
+    height: 450px;
+    background-image: url(../img/priest_photo.png);
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
+.about_text {
+    padding-top: 47px;
+}
+.about_text p{
+    font-size: 12px;
+    /* or 12px */
+    letter-spacing: 0.125em;
+    margin-bottom: .5em;
+}
+.about_text hr{
+    border: 1px solid #F1EFEE;
+    width: 36%;
+    margin: .5em auto 1em 0;
+}
+
+/* HISTORY */
+
+.history {
+    /* padding: 50px 0px; */
+    /* height: 760px; */
+    background-image: url(../img/history_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+.history_text {
+    margin-top: 50px;
+}
+.history_text p{
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.12em;
+    text-indent: 30px; 
+    color: #3F353B;
+}
+.slider_item {
+    margin-top: 34px;
+}
+.slider_buttons {
+    margin-right: 15px;
+    margin-top: 23px;
+    font-size: 48px;
+}
+
+/* CONTACTS */
+
+.contacts{
+    padding: 50px 0px;
+    background: radial-gradient(57.45% 57.45% at 50% 39.71%, rgba(228, 222, 212, 0) 0%, rgba(110, 61, 11, 0.15) 100%), #E4DED4;
+}
+.contact_item h2{
+    margin-bottom: 30px;
+}
+.contact_item p{
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.11em;
+    color: #3F353B;
+}
+.contact_item a{
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.11em;
+    color: #3F353B;
+    text-decoration: none;
+}
+
+
+/* NEWS */
+.news {
+    background-image: url(../img/news_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+.news_item h1 {
+    font-size: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.news_item h6 {
+    /* color: #3F353B; */
+    letter-spacing: 0.1em;
+}
+.news_item p{
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.12em;
+    text-indent: 30px; 
+    /* color: #3F353B; */
+}
+.news_item a {
+    /* color: #3F353B; */
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;  
+}
+.news_item a span {
+    margin-left: 5px;
+}
+
+/* LAST_NEWS */
+
+.last_news {
+    background-image: url(../img/lastnews_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+/* SERVICES */
+
+.services {
+    background-image: url(../img/news_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+.services h1{
+    text-align: left;
+}
+.service_item img{
+    width: 100%;
+}
+.service_text{
+    background-image: url(../img/service_item_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 57px 67px;
+    margin-top: 60px;
+}
+.service_text p{
+    line-height: 1.5em;
+}
+
+/* TIMETABLE */
+
+.timetable {
+    background-image: url(../img/timetable_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.date h1{
+    letter-spacing: 0px;
+    margin-top: 0;
+    text-align: left;
+    
+}
+.timetable h6 {
+    letter-spacing: 0.1em;
+    font-feature-settings: 'cpsp' off, 'kern' off;
+}
+.timetable p{
+    line-height: 1.5em;
+    min-height: 92px;
+}
+.timetable hr{
+    margin-top: 0;
+}
+
+
