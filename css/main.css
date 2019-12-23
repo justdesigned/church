@@ -63,6 +63,7 @@ a:hover {
 header {
     background-color: #3F353B;
     border-bottom: 1px solid #F1EFEE;
+    /* z-index: 1; */
 }
 .topmenu {
     
@@ -117,6 +118,7 @@ header {
     background-image: url(../img/priest_photo.png);
     background-repeat: no-repeat;
     background-position: center top; 
+    margin-top: 20px;
 }
 .about_text {
     padding-top: 47px;
