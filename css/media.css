@@ -24,6 +24,15 @@
 		display: block;
 		padding: 23px 0;
 		margin-left: auto;
+		background-color: #3F353B;
+		border: none;
+	}
+	.toggle-button i{
+		color: #F1EFEE;
+		font-size: 24px;
+	}
+	.toggle-button:hover i{
+		color: #a1949b;
 	}
 
 }
