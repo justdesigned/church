@@ -19,7 +19,7 @@ h1{
     font-feature-settings: 'cpsp' on, 'kern' off;
     color: #3F353B;
     text-align: center;
-    margin-top: 50px;
+    
 }
 h1 span{
     font-weight: bold;
@@ -66,12 +66,21 @@ header {
     /* z-index: 1; */
 }
 .topmenu {
-    display: flex;
     padding: 27px 0;
 }
 
+.topmenu ul {
+    /* display: flex; */
+    width: 100%;
+}
+
+.topmenu__item {
+    flex-basis: auto;
+    flex-grow: 1;
+}
 
 .topmenu__item a {
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
@@ -81,6 +90,33 @@ header {
 .toggle-button {
     display: none;
 }
+
+#about:before {
+	display: block;
+	content: "";
+	height: 86px;
+	margin: -86px 0 0;
+}
+#news:before {
+	display: block;
+	content: "";
+	height: 86px;
+	margin: -86px 0 0;
+}
+#services:before {
+	display: block;
+	content: "";
+	height: 86px;
+	margin: -86px 0 0;
+}
+#timetable:before {
+	display: block;
+	content: "";
+	height: 86px;
+	margin: -86px 0 0;
+}
+
+
 
 /* FIRST_SCREEN */
 
