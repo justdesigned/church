@@ -19,6 +19,7 @@ h1{
     font-feature-settings: 'cpsp' on, 'kern' off;
     color: #3F353B;
     text-align: center;
+    margin-top: 50px;
     
 }
 h1 span{
@@ -91,7 +92,7 @@ header {
     display: none;
 }
 
-#about:before {
+/* #about:before {
 	display: block;
 	content: "";
 	height: 86px;
@@ -114,7 +115,7 @@ header {
 	content: "";
 	height: 86px;
 	margin: -86px 0 0;
-}
+} */
 
 
 
@@ -145,6 +146,9 @@ header {
     letter-spacing: 0.63em;
 }
 
+.mainmenu__slider {
+    width: 100%;
+}
 /* ABOUT_PRIEST */
 .about {
     /* height: 450px; */
@@ -196,13 +200,21 @@ header {
     text-indent: 30px; 
     color: #3F353B;
 }
-.slider_item {
-    margin-top: 34px;
+
+
+.slider__img {
+    display: block;
+    height: 175px;
+    
 }
-.slider_buttons {
-    margin-right: 15px;
-    margin-top: 23px;
+.slider__buttons a{    
     font-size: 48px;
+    color: #3F353B;
+    margin-right: 10px;
+}
+
+.slider__buttons a:hover {
+    color: #a1949b; 
 }
 
 /* CONTACTS */
@@ -226,6 +238,9 @@ header {
     letter-spacing: 0.11em;
     color: #3F353B;
     text-decoration: none;
+}
+.contact_item a:hover {
+    color: #a1949b;
 }
 
 
@@ -327,4 +342,6 @@ header {
     margin-top: 0;
 }
 
-
+.carousel {
+    width: 100%;
+}
