@@ -92,30 +92,25 @@ header {
     display: none;
 }
 
-/* #about:before {
-	display: block;
-	content: "";
-	height: 86px;
-	margin: -86px 0 0;
+git 
+#news {
+	padding-top: 86px;
+	margin-top: -86px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
 }
-#news:before {
-	display: block;
-	content: "";
-	height: 86px;
-	margin: -86px 0 0;
+#services{
+	padding-top: 86px;
+	margin-top: -86px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
 }
-#services:before {
-	display: block;
-	content: "";
-	height: 86px;
-	margin: -86px 0 0;
+#timetable{
+	padding-top: 86px;
+	margin-top: -86px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
 }
-#timetable:before {
-	display: block;
-	content: "";
-	height: 86px;
-	margin: -86px 0 0;
-} */
 
 
 
