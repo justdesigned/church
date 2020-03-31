@@ -19,7 +19,7 @@ h1{
     font-feature-settings: 'cpsp' on, 'kern' off;
     color: #3F353B;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto;
     
 }
 h1 span{
@@ -56,8 +56,21 @@ a:hover {
 .light {
     color: #F1EFEE;
 }
+.light a{
+    color: #F1EFEE;
+}
+.light a:hover {
+    color: #a1949b;
+}
 .dark {
     color: #3F353B;
+}
+.dark a {
+    color: #3F353B;
+}
+.dark a:hover {
+    color: #a1949b; 
+
 }
 /* HEADER */
 
@@ -67,7 +80,7 @@ header {
     /* z-index: 1; */
 }
 .topmenu {
-    padding: 27px 0;
+    padding: 18px 0;
 }
 
 .topmenu ul {
@@ -92,22 +105,27 @@ header {
     display: none;
 }
 
-git 
+#about {
+	padding-top: 69px;
+	margin-top: -69px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
 #news {
-	padding-top: 86px;
-	margin-top: -86px;
+	padding-top: 69px;
+	margin-top: -69px;
 	-webkit-background-clip: content-box;
 	background-clip: content-box;
 }
 #services{
-	padding-top: 86px;
-	margin-top: -86px;
+	padding-top: 69px;
+	margin-top: -69px;
 	-webkit-background-clip: content-box;
 	background-clip: content-box;
 }
 #timetable{
-	padding-top: 86px;
-	margin-top: -86px;
+	padding-top: 69px;
+	margin-top: -69px;
 	-webkit-background-clip: content-box;
 	background-clip: content-box;
 }
@@ -117,12 +135,12 @@ git
 /* FIRST_SCREEN */
 
 .first_screen {
-    height: 880px;
+    /* height: 880px; */
     background-color: #3F353B;
-    background-image: url(../img/header_bg_img.png);
+    /* background-image: url(../img/header_bg_img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 .logo {
     margin-top: 16px;
@@ -204,13 +222,10 @@ git
 }
 .slider__buttons a{    
     font-size: 48px;
-    color: #3F353B;
     margin-right: 10px;
 }
 
-.slider__buttons a:hover {
-    color: #a1949b; 
-}
+
 
 /* CONTACTS */
 
@@ -245,32 +260,39 @@ git
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 50px;
+    /* padding-bottom: 150px; */
 }
-.news_item h1 {
+
+.newsItem {
+    margin-bottom: 25px;
+}
+.newsItem h1 {
     font-size: 30px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
-.news_item h6 {
+.newsItem h6 {
     /* color: #3F353B; */
     letter-spacing: 0.1em;
 }
-.news_item p{
+.newsItem p{
     line-height: 150%;
     text-align: justify;
     letter-spacing: 0.12em;
     text-indent: 30px; 
     /* color: #3F353B; */
 }
-.news_item a {
+/* .newsItem a {
     /* color: #3F353B; */
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0.25em;
-    text-transform: uppercase;  
-}
-.news_item a span {
+    text-transform: uppercase; 
+     
+} */
+.newsItem a span {
     margin-left: 5px;
 }
 
@@ -291,21 +313,38 @@ git
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 50px;
+    
 }
 .services h1{
     text-align: left;
 }
+.service_item {
+    margin-bottom: 50px;
+}
 .service_item img{
     width: 100%;
 }
-.service_text{
+.service_item a{
+    text-decoration: none;
+}
+.service_item a:hover{
+    opacity: 75%;
+}
+.service_item a:hover h1{
+    color: rgba(63, 53, 59, 0.753);
+}
+.service_bg {
     background-image: url(../img/service_item_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 57px 67px;
-    margin-top: 60px;
+
+    
+}
+.service_text{
+    
+    padding: 67px;
+    
 }
 .service_text p{
     line-height: 1.5em;

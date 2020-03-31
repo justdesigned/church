@@ -38,8 +38,37 @@
       </div>
     </header>
     <section class="first_screen" id="first_screen">
-      <div class="container">
-        <div class="row justify-content-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="firstScreenIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#firstScreenIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#firstScreenIndicators" data-slide-to="1"></li>
+              <li data-target="#firstScreenIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/header_bg_img.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/header_bg_img_2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/header_bg_img_3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#firstScreenIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#firstScreenIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- <div class="row justify-content-center">
           <div class="logo">
             <img src="./img/logo.png" alt="logo">
           </div>       
@@ -47,14 +76,14 @@
         <div class="row justify-content-center">
           <nav>
             <ul class="mainmenu">
-              <li class="mainmenu__item"><a href="#" class="link">главная</a></li>
+              <li class="mainmenu__item"><a href="index.html" class="link">главная</a></li>
               <li class="mainmenu__item"><a href="index.html#about" class="link">о храме</a></li>
               <li class="mainmenu__item"><a href="news.html#news" class="link">новости</a></li>
               <li class="mainmenu__item"><a href="services.html#services" class="link">таинства церкви</a></li>
               <li class="mainmenu__item"><a href="services.html#services" class="link">расписание</a></li>
             </ul>
           </nav>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="news" id="news" name="news">
@@ -65,59 +94,1021 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="news_item">
+                <div class="col-12">
+                    <div class="newsItem">
                         <h1 class="dark">03.03.<span>2019</span></h1>   
                         <h6 class="dark">Первая Божественная Литургия</h6>   
-                        <p class="dark">3 марта 2019 года совершилось долгожданное историческое событие для нашего прихода – благочинным Видновского церковного округа священником Димитрием Березиным в сослужении с настоятелем храма священником Георгием Балановским была отслужена первая Божественная Литургия. Многие верующие посетили в этот день наш храм, и через приобщение к святым Христовым Тайным положили начало Евхаристической жизни новообразованной общины. </p>  
-                        <a class="dark" href="#">Читать далее<span><i class="fas fa-caret-right"></i></span></a>              
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="news_item">
-                        <h1 class="dark">06.02.<span>2019</span></h1>   
-                        <h6 class="dark">Первый молебен в честь блаженной Ксении Петербургской </h6>   
-                        <p class="dark">3 марта 2019 года совершилось долгожданное историческое событие для нашего прихода – благочинным Видновского церковного округа священником Димитрием Березиным в сослужении с настоятелем храма священником Георгием Балановским была отслужена первая Божественная Литургия. Многие верующие посетили в этот день наш храм, и через приобщение к святым Христовым Тайным положили начало Евхаристической жизни новообразованной общины. </p>  
-                        <a  class="dark" href="#">Читать далее<span><i class="fas fa-caret-right"></i></span></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="news_item">
-                        <h1 class="dark">09.06.<span>2019</span></h1>   
-                        <h6 class="dark">Великое освящение храма</h6>   
-                        <p class="dark">9 июня митрополит Ювеналий совершил великое освящение храма блаженной Ксении Петербургской и возглавил Божественную литургию в новоосвященном храме.
-                                Его Высокопреосвященству сослужили викарий Московской епархии епископ Луховицкий Петр, секретарь Московского епархиального управления протоиерей Михаил Егоров, благочинный Видновского церковного округа священник Димитрий Березин, настоятель храма священник Георгий Балановский, духовенство Видновского благочиния.</p>  
-                        <a class="dark" href="#">Читать далее<span><i class="fas fa-caret-right"></i></span></a>
+                        <p class="dark">3 марта 2019 года совершилось долгожданное историческое событие для нашего прихода – благочинным Видновского церковного округа священником Димитрием Березиным в сослужении с настоятелем храма священником Георгием Балановским была отслужена первая Божественная Литургия. Многие верующие посетили в этот день наш храм, и через приобщение к святым Христовым Тайным положили начало Евхаристической жизни новообразованной общины. </p>   
+                        <div class="carousel-inner">
+                          <div id="carouselNews1" class="carousel slide " data-ride="carousel">
+                            <div class="carousel-item active">
+                              
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-1.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-1.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-2.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-2.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-3.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-3.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-4.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-4.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              
+                            </div>
+                            <div class="carousel-item">
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-5.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-5.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-6.jpg" data-toggle="lightbox"> 
+                                  <img src="./img/20190303-6.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-7.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-7.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-8.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-8.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-9.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-9.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="./img/20190303-10.jpg" data-toggle="lightbox">
+                                  <img src="./img/20190303-10.jpg" class="slider__img mx-auto" alt="...">
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="" data-toggle="lightbox">
+                                  
+                                </a>
+                              </div>
+                              <div class="black d-block float-left w-25">
+                                <a href="" data-toggle="lightbox">
+                                  
+                                </a>
+                              </div>
+                            </div>
+                            
+              
+              
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="slider__buttons dark ml-auto">
+                            <a href="#carouselNews1" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                            <a href="#carouselNews1" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                          </div>
+                        </div>
+                                   
                     </div>
                 </div>
             </div>
             <div class="row">
-                    <div class="col-md-4">
-                        <div class="news_item">
-                            <h1 class="dark">28.04.<span>2019</span></h1>   
-                            <h6 class="dark">ПАСХА</h6>   
-                            <p class="dark">Для христианского вероучения главным событием в истории человечества является Воскресение Христово. Господь Своей победой над смертью открыл врата в Царство Небесное. Отныне каждый христианин имеет возможность обрести жизнь вечную в чертогах любящего Отца. 
-                                    В этом году наш приход впервые встречал Пасху. Большое количество верующих людей в Великую Субботу посетили храм, поклонились плащанице Спасителя и освятили принесенные традиционные дары. В сам Праздник, за ночной Литургией, прихожане, причастившись Святых Христовых Таин, в радости встретили Воскресшего Спасителя.</p>  
-                            <a class="dark" href="#">Читать далее<span><i class="fas fa-caret-right"></i></span></a>              
+              <div class="col-12">
+                <div class="newsItem">
+                    <h1 class="dark">06.02.<span>2019</span></h1>   
+                    <h6 class="dark">Первый молебен в честь блаженной Ксении Петербургской </h6>   
+                    <p class="dark">6 февраля, в престольный праздник нашего храма, впервые был отслужен молебен в честь блаженной Ксении Петербургской. Во главе с протоиереем Михаилом Егоровым, секретарем Московского епархиального управления, священником Димитрием Березиным, благочинным Видновского церковного округа, в сослужении настоятеля храма и клириков благочиния, верующие вознесли молитвы к блаженной Ксении, чтобы ее предстательством Господь благословил начало приходской жизни в новом храме.   </p>  
+                    <div class="carousel-inner">
+                      <div id="carouselNews2" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-item active">
+                          
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/20190602-1.JPG" data-toggle="lightbox">
+                              <img src="./img/20190602-1.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/20190602-2.JPG" data-toggle="lightbox">
+                              <img src="./img/20190602-2.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/20190602-3.JPG" data-toggle="lightbox">
+                              <img src="./img/20190602-3.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/20190602-4.JPG" data-toggle="lightbox">
+                              <img src="./img/20190602-4.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="news_item">
-                            <h1 class="dark">30.09.<span>2019</span></h1>   
-                            <h6 class="dark">Учредительное собрание</h6>   
-                            <p class="dark">30 сентября 2018 года состоялось учредительное собрание прихода храма святой блаженной Ксении Петербургской, которое возглавил благочинный Видновского церковного округа священник Димитрий Березин. На собрании был представлен назначенный настоятель храма священник Георгий Балановский, избраны члены приходского совета и ревизионной комиссии. В конце отец Димитрий поблагодарил всех присутствующих за активную поддержку в создании прихода и выразил надежду на скорое начало совершения богослужений в храме: «Даст Бог, в конце этого – начале следующего года здесь начнутся регулярные богослужения». </p>  
-                            <a class="dark" href="#">Читать далее<span><i class="fas fa-caret-right"></i></span></a>
+                    
+                </div>
+              </div>
+            </div>    
+            <div class="row">
+              <div class="col-12">
+                <div class="newsItem">
+                    <h1 class="dark">09.06.<span>2019</span></h1>   
+                    <h6 class="dark">Великое освящение храма</h6>   
+                    <p class="dark">9 июня митрополит Ювеналий совершил великое освящение храма блаженной Ксении Петербургской и возглавил Божественную литургию в новоосвященном храме.
+                    </p>
+                    <p class="dark">Его Высокопреосвященству сослужили викарий Московской епархии епископ Луховицкий Петр, секретарь Московского епархиального управления протоиерей Михаил Егоров, благочинный Видновского церковного округа священник Димитрий Березин, настоятель храма священник Георгий Балановский, духовенство Видновского благочиния.
+                    </p>
+                    <p class="dark">За богослужением молились глава Ленинского района В. Н. Венцаль, благотворители и прихожане храма.
+                    </p>
+                    <p class="dark">По окончании богослужения с приветственным словом к Владыке Ювеналию обратился настоятель храма священник Георгий Балановский:
+                    </p>
+                    <p class="dark"><em> Ваше Высокопреосвященство, дорогой Владыка! Позвольте Вас поблагодарить за внимание и любовь к нашему приходу, за то, что нашли возможность посетить нас и совершить великое освящение этого храма. Для всей нашей общины в этот исторический день радостно и ценно разделить совместную молитву со своим Правящим архиереем. Мы и дальше будем молиться о том, чтобы Господь наш Иисус Христос даровал Вам крепкого здравия и сил в Вашем нелегком архипастырском служении на Подмосковной земле. Позвольте от всего нашего прихода преподнести Вам на молитвенную память образ святой блаженной Ксении Петербургской. Многая и благая лета Вам, дорогой Владыка!
+                    </em></p> 
+                    <p class="dark">С приветственным словом к Его Высокопреосвященству обратился глава Ленинского района В. Н. Венцаль:
+                    </p>   
+                    <p class="dark"><em> Дорогой Владыка Ювеналий, всечестные отцы, братья и сестры, уважаемые жители! Позвольте вас всех поздравить с сегодняшним событием. Дорогой Владыка, для нас большая честь, когда Вы приезжаете на нашу Видновскую землю. Хочется поблагодарить Вас за то, что именно в этот день, который является праздником нашего муниципалитета, Вы с нами, а мы имеем возможность разделить с Вами молитву на Божественной литургии. Дорогие друзья, сегодня одним храмом в Видновском благочинии стало больше, а значит, появилось еще одно место, где можно помолиться, исповедоваться, получить от Бога утешение. Я хочу еще раз вас всех поблагодарить за совместную молитву, а Вас, дорогой Владыка, за внимание к нам. Дорогие друзья, позвольте мне подарить отцу Георгию икону святителя Николая.
+                    </em>></p>
+                    <p class="dark">С архипастырским словом к духовенству и молящимся обратился митрополит Ювеналий:
+                    </p>
+                    <p class="dark"><em>Ваше Преосвященство, возлюбленные братья-сопастыри, уважаемый Валерий Николаевич, дорогие братья и сестры! Я сегодня с радостью общаюсь с вами в молитве, наслаждаюсь величием этого святого храма, и радуюсь, что Господь дает нам счастье созидать храмы Божии на Подмосковной земле. Прошло время богоборчества, мы стараемся восстановить наши порушенные святыни и видим примеры доброго, сердечного отношения состоятельных людей, которые по традиции Святой Руси созидают храмы Божии. Храм является для нас центром духовной жизни. Здесь люди принимают Таинство Крещения и становятся членами Святой Церкви, здесь они духовно возрастают, участвуя в богослужении и причащаясь Святых Христовых Таин. Вся жизнь человека проходит в Церкви, и это дает каждому из нас духовные силы и радость в земной жизни. И когда сюда, в храм Божий, приносят наши похолодевшие останки, Церковь испрашивает прощения наших грехов и напутствует в вечную жизнь. Такое значение для нас приобретает храм Божий! Я счастлив, что сегодня освятил этот храм в честь блаженной Ксении. Эта святая, показавшая пример, как нужно любить Бога и ближних, не оставляет нас своим небесным предстательством. Тот факт, что мы посвящаем ей храмы, говорит о многом, ибо мы веруем, что ее молитвенным заступлением Господь исполняет во благих прошения наши. Спасибо всем, кто внес свою лепту в строительство и благоукрашение этого храма! Спасибо вам, что вы приняли участие в освящении, молясь о том, чтобы Господь освятил это место, был с нами Своей милостью, благодатью, щедротами и человеколюбием. Храни вас всех Господь, дорогие и возлюбленные братья и сестры!
+                    </em>></p>
+                    <p class="dark">Благотворитель храма А. Г. Бордунов был удостоен ордена Русской Православной Церкви преподобного Серафима Саровского III степени. Вручая ему высокую награду, Владыка Ювеналий сказал:
+                    </p>
+                    <p class="dark"><em>Дорогой Андрей Геннадьевич, поздравляю Вас с Патриаршей наградой и благодарю за то, что не только Вы лично, но и вся Ваша семья потрудилась для того, чтобы мы сегодня так радостно, спасительно торжествовали. Обычно люди стараются имеющиеся у них средства употребить для себя, для своих близких, а Вы, согласно древним традициям нашей Святой Руси, имеющиеся у Вас средства употребили на строительство этого святого храма. Когда я сегодня в первый раз зашел в эту церковь, у меня создалось впечатление, будто этот храм стоит давно, а не построен на наших глазах. Он сооружен в традициях русского храмоздательства, и что для нас очень ценно, он уже востребован жителями близлежащих мест и сегодня наполнен молящимися. Мне хочется пожелать, чтобы Господь за Вашу жертвенность дал Вам все необходимое и для временной жизни, и сподобил Вас Царствия Небесного. Я хотел бы попросить Вас на молитвенную память и от меня, и от духовенства, и от верующих, которые сегодня молились с нами, принять этот образ Святой Владычицы нашей Богородицы. Пусть Царица Небесная будет Покровительницей Вашей семьи, помогает Вам во всех Ваших трудах и хранит Вас на многая лета!
+                    </em></p>
+                    <p class="dark">О. В. Бордунова была удостоена медали Русской Православной Церкви «Патриаршая благодарность», А. А. Бордунов – Патриаршего знака храмостроителя, Н. В. Шевченко – медали Московской епархии «За жертвенные труды» II степени, А. Л. Самсонов – благодарственной грамоты митрополита Ювеналия, настоятель храма священник Георгий Балановский и М. Х. Билалов – благословенных грамот митрополита Ювеналия.
+                    </p>
+
+                    <div class="carousel-inner">
+                      <div id="carouselNews3" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-item active">
+                          
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5497.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5497.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5500.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5500.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5506.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5506.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5510.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5510.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="news_item">
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5519.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5519.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5520.jpg" data-toggle="lightbox"> 
+                              <img src="./img/Y84A5520.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5522.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5522.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5525.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5525.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5527.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5527.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5528.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5528.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5555.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5555.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5558.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5558.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5578.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5578.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5581.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5581.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5587.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5587.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5598.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5598.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5605.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5605.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5608.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5608.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5621.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5621.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5626.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5626.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5645.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5645.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5654.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5654.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5662.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5662.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5665.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5665.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5671.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5671.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5686.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5686.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5695.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5695.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5724.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5724.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5733.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5733.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5739.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5739.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5743.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5743.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5746.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5746.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5754.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5754.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5761.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5761.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5771.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5771.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5772.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5772.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5773.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5773.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5775.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5775.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5777.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5777.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5787.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5787.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5802.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5802.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5810.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5810.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5818.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5818.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5820.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5820.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5832.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5832.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5837.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5837.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5863.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5863.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5889.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5889.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5906.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5906.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5909.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5909.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5914.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5914.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5922.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5922.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5924.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5924.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5930.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5930.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5941.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5941.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5945.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5945.jpg" css="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5957.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5957.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5959.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5959.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5962.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5962.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5974.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5974.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A5986.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A5986.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6000.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6000.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6009.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6009.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6030.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6030.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6033.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6033.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6041.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6041.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6076.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6076.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6085.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6085.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6097.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6097.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6099.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6099.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6105.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6105.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6121.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6121.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6124.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6124.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6125.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6125.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6128.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6128.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6134.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6134.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6178.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6178.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6188.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6188.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6204.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6204.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6212.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6212.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6217.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6217.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6228.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6228.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6239.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6239.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6252.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6252.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6257.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6257.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6261.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6261.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6263.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6263.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6272.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6272.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6282.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6282.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6292.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6292.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6295.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6295.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6307.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6307.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6312.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6312.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6319.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6319.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6324.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6324.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6329.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6329.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6341.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6341.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6350.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6350.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6363.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6363.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6375.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6375.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6384.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6384.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6402.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6402.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6418.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6418.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6447.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6447.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6449.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6449.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6451.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6451.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6452.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6452.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6453.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6453.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6462.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6462.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6465.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6465.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6466.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6466.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6468.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6468.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6471.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6471.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/Y84A6476.jpg" data-toggle="lightbox">
+                              <img src="./img/Y84A6476.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
                             
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            
+                          </div>
                         </div>
+                      
+          
+          
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="slider__buttons dark ml-auto">
+                        <a href="#carouselNews3" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                        <a href="#carouselNews3" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                      </div>
                     </div>
                 </div>
-        </div>
+              </div>
+            </div>    
+
+
+            <div class="row">
+              <div class="col-12">
+                <div class="newsItem">
+                    <h1 class="dark">28.04.<span>2019</span></h1>   
+                    <h6 class="dark">ПАСХА</h6>   
+                    <p class="dark">Для христианского вероучения главным событием в истории человечества является Воскресение Христово. Господь Своей победой над смертью открыл врата в Царство Небесное. Отныне каждый христианин имеет возможность обрести жизнь вечную в чертогах любящего Отца. 
+                    <p class="dark">В этом году наш приход впервые встречал Пасху. Большое количество верующих людей в Великую Субботу посетили храм, поклонились плащанице Спасителя и освятили принесенные традиционные дары. В сам Праздник, за ночной Литургией, прихожане, причастившись Святых Христовых Таин, в радости встретили Воскресшего Спасителя.</p>  
+                    </p>
+                    <div class="carousel-inner">
+                      <div id="carouselNews5" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-item active">
+                          
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/1.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/1.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/2.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/2.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/3.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/3.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/4.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/4.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/5.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/5.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/6.JPG" data-toggle="lightbox"> 
+                              <img src="./img/pasha/6.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/7.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/7.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/8.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/8.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/9.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/9.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/10.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/10.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/11.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/11.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/12.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/12.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/13.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/13.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/14.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/14.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/15.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/15.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/16.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/16.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/17.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/17.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/18.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/18.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/pasha/19.JPG" data-toggle="lightbox">
+                              <img src="./img/pasha/19.JPG" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="slider__buttons dark ml-auto">
+                        <a href="#carouselNews5" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                        <a href="#carouselNews5" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-12">
+                <div class="newsItem">
+                    <h1 class="dark">30.09.<span>2019</span></h1>   
+                    <h6 class="dark">Учредительное собрание</h6>   
+                    <p class="dark">30 сентября 2018 года состоялось учредительное собрание прихода храма святой блаженной Ксении Петербургской, которое возглавил благочинный Видновского церковного округа священник Димитрий Березин. На собрании был представлен назначенный настоятель храма священник Георгий Балановский, избраны члены приходского совета и ревизионной комиссии. В конце отец Димитрий поблагодарил всех присутствующих за активную поддержку в создании прихода и выразил надежду на скорое начало совершения богослужений в храме: «Даст Бог, в конце этого – начале следующего года здесь начнутся регулярные богослужения». </p>  
+                    <div class="carousel-inner">
+                      <div id="carouselNews4" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-item active">
+                          
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/1.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/1.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/2.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/2.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/3.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/3.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/4.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/4.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          
+                        </div>
+                        <div class="carousel-item">
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/5.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/5.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/6.jpg" data-toggle="lightbox"> 
+                              <img src="./img/uchsob/6.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            <a href="./img/uchsob/7.jpg" data-toggle="lightbox">
+                              <img src="./img/uchsob/7.jpg" class="slider__img mx-auto" alt="...">
+                            </a>
+                          </div>
+                          <div class="black d-block float-left w-25">
+                            
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="slider__buttons dark ml-auto">
+                        <a href="#carouselNews4" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                        <a href="#carouselNews4" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+              
+              
+               
+            
+            
     </section>
-    <section class="last_news" id="last_news">
+    <!-- <section class="last_news" id="last_news">
         <div class="container">
             <div class="row">
                 <div class="news_item light">
@@ -127,70 +1118,126 @@
                 </div>
             </div>
             <div class="row">
-                    <div class="col-md-3">
-                      <div class="slider_item">
-                        <img width="100%" src="./img/slider1.png" alt="">
-                      </div>
+              <div class="carousel-inner">
+                <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                  <div class="carousel-item active">
+                    
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-1.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-1.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
                     </div>
-                    <div class="col-md-3">
-                      <div class="slider_item">
-                        <img width="100%" src="./img/slider2.png" alt="">
-                      </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-2.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-2.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
                     </div>
-                    <div class="col-md-3">
-                      <div class="slider_item">
-                        <img width="100%" src="./img/slider3.png" alt="">
-                      </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-3.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-3.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
                     </div>
-                    <div class="col-md-3">
-                      <div class="slider_item">
-                        <img width="100%" src="./img/slider4.png" alt="">
-                      </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-4.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-4.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-5.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-5.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-6.jpg" data-toggle="lightbox"> 
+                        <img src="./img/20190303-6.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-7.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-7.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-8.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-8.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
                     </div>
                   </div>
-                  <div class="row justify-content-end">
-                    <div class="slider_buttons">
-                        <i class="fas fa-caret-left light"></i>
-                        <i class="fas fa-caret-right light"></i>
+                  <div class="carousel-item">
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-9.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-9.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="./img/20190303-10.jpg" data-toggle="lightbox">
+                        <img src="./img/20190303-10.jpg" class="slider__img mx-auto" alt="...">
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="" data-toggle="lightbox">
+                        
+                      </a>
+                    </div>
+                    <div class="black d-block float-left w-25">
+                      <a href="" data-toggle="lightbox">
+                        
+                      </a>
                     </div>
                   </div>
-        </div>
-    </section>
-    <section class="contacts" id="contacts">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="contact_item">
-                    <h2>контактные данные</h2>
-                    <p>Адрес: Россия, Московская область, Ленинский район, садовое товарищество Вереск-Б</p>
-                    <p>Телефон: 8-963-607-75-83</p>
-                    <p>E-mail: priest@kseniyakhram.com</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="contact_item">
-                    <h2>полезные ссылки</h2>
-                    <p><a href="http://www.patriarchia.ru/">Официальный сайт Русской Православной Церкви</a>
-                    <a href="https://mepar.ru/">Официальный сайт Московской епархии</a><br>
-                    <a href="https://www.hramvidnoe.ru/">Сайт Видновского благочиния</a><br>
-                    <a href="http://missia.me/">Миссионерский отдел Московской епархии</a><br>
-                    <a href="http://sohranihram.ru/">Фонд порушеных святынь Московской епархии</a></p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="contact_item">
-                    <h2>реквизиты</h2>
-                    <p>Местная религиозная организация православный приход Александро-Невского храма г.Видное Московской области Московской епархии Русской Православной Церкви <br>
-                        ИНН 1234567890 КПП 123456789 <br>
-                        БИК 123456789 <br>
-                        Филиал “Цунтральный” Банка ВТБ (ПАО) г. Москва <br>
-                        Р/счет: 12345654563246262562567 <br>
-                        К/счет: 13243125435425623452525</p>
-                  </div>
+                  
+    
+    
                 </div>
               </div>
             </div>
-          </section>
+            <div class="row">
+              <div class="slider__buttons light ml-auto">
+                <a href="#carouselExampleControls" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                <a href="#carouselExampleControls" data-slide="next"><i class="fas fa-caret-right"></i></a>
+              </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact_item">
+              <h2>контактные данные</h2>
+              <p>Адрес: Россия, Московская область, Ленинский район, садовое товарищество Вереск-Б</p>
+              <p>Телефон: 8-963-607-75-83</p>
+              <p>E-mail: priest@kseniyakhram.com</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact_item">
+              <h2>полезные ссылки</h2>
+              <p><a href="http://www.patriarchia.ru/">Официальный сайт Русской Православной Церкви</a>
+              <a href="https://mepar.ru/">Официальный сайт Московской епархии</a><br>
+              <a href="https://www.hramvidnoe.ru/">Сайт Видновского благочиния</a><br>
+              <a href="http://missia.me/">Миссионерский отдел Московской епархии</a><br>
+              <a href="http://sohranihram.ru/">Фонд порушеных святынь Московской епархии</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact_item">
+              <h2>реквизиты</h2>
+              <p>Местная религиозная организация православный приход храма Ксении Блаженной деревни Слобода Ленинского р-на Московской области епархии Русской Православной Церкви<br> <br>
+                  ИНН 5003131233 КПП 500301001 <br> 
+                  ОГРН 1185000005189 <br>
+                  БИК 044525411 <br>
+                  Филиал «Центральный» Банка ВТБ (ПАО) г. Москва <br>
+                  Р/счет: 40703810301910000027 <br>
+                  К/счет: 3010181010145250000411</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
