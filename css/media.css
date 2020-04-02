@@ -21,7 +21,7 @@
 		padding: 8px;
 	}
 	
-	}
+	
 	.toggle-button {
 		display: block;
 		padding: 23px 0;
@@ -36,7 +36,7 @@
 	.toggle-button:hover i{
 		color: #a1949b;
 	}
-
+ 
 }
 
 /* Medium Devices, Desktops */
