@@ -36,10 +36,10 @@
 	.toggle-button:hover i{
 		color: #a1949b;
 	}
- 
+
 }
 
-/* Medium Devices, Desktops */
+/* Medium Devices, Desktops*/
 @media only screen and (max-width : 992px) {
 	
 
